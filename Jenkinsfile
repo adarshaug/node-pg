@@ -9,7 +9,7 @@ pipeline {
 
 	     stage('Cloning our Git') {
 			steps {
-				git changelog: false, poll: false, url: 'https://github.com/adarshaug/simple-webapp.git'
+				git changelog: false, poll: false, url: 'https://github.com/adarshaug/node-pg.git'
 			}
 		}
 
