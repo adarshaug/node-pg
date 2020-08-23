@@ -15,8 +15,8 @@ pipeline {
 
 	     stage('Docker Build')	{
 			steps{
-				sh "docker build -t adarshaug/simple-webapp ."
-				sh "docker push adarshaug/simple-webapp"
+				sh "docker build -t adarshaug/node-pg ."
+				sh "docker push adarshaug/node-pg"
 			}
 	     }
 
